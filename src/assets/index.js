@@ -6,9 +6,8 @@ import menu from "./menu.svg";
 import arrowUp from "./arrow-up.svg";
 import instagram from "./instagram.png";
 import github from "./github.png";
-import mail from "./mail.png";
 import youtube from "./youtube.png";
-import discord from "./discord.png";
+import facebook from "./facebook.png";
 import close from "./close.svg";
 
 
@@ -22,9 +21,8 @@ export {
   arrowUp,
   instagram,
   github,
-  mail,
   youtube,
-  discord,
+  facebook,
   close,
   
 };
