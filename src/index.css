@@ -150,17 +150,29 @@
   background: var(--black-gradient);
 }
 
-.blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
-  filter: blur(123px);
+.blue2__gradient {
+  background: linear-gradient(180deg, rgba(95, 221, 243, 0) 0%, #3273af 100%);
+  opacity: 0.5;
+  filter: blur(300px);
 }
 
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
   filter: blur(900px);
+  opacity: 0.5;
+}
+.green__gradient {
+  background: linear-gradient(90deg, #0ec226 0%, #035517 100%);
+  filter: blur(400px);
+  opacity: 0.5;
+}
+.blue__gradient {
+  background: linear-gradient(180deg, #408dcc 0%, #022e8d 100%);
+   opacity: 0.8;
+  filter: blur(500px);
 }
 
 .white__gradient {
-  background: rgba(255, 255, 255, 0.6);
-  filter: blur(750px);
+  background: rgba(255, 255, 255, 0.144);
+  filter: blur(2000px);
 }
