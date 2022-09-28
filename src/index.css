@@ -18,6 +18,14 @@
   scroll-behavior: smooth;
 }
 
+.box_shadow_t{
+  box-shadow: 0 -1px 7px rgba(189, 180, 180, 0.212);
+}
+
+.box_shadow_b{
+  box-shadow: 0 1px 10px rgba(189, 180, 180, 0.212);
+}
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -77,7 +85,8 @@
 }
 
 .box-shadow {
-  box-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  border-radius: 100%;
+  box-shadow: 0px 20px 100px -10px rgba(194, 197, 207, 0.3);
 }
 
 
@@ -86,6 +95,56 @@
   animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.button_style{
+  position: relative;
+  padding: 10px 30px;
+  margin: 0 15px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 18px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.button_style:hover{
+  background: #21ebff;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 30px #21ebff;
+}
+
+.button_style::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #21ebff;
+    border-left: 2px solid #21ebff;
+    transition: 0.5s;
+}
+
+.button_style::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 10px;
+    height: 10px;
+    border-bottom: 2px solid #21ebff;
+    border-right: 2px solid #21ebff;
+    transition: 0.5s;
+}
+
+.button_style:hover::before{
+  width: 100%;
+  height: 100%;
+}
+.button_style:hover::after{
+  width: 100%;
+  height: 100%;
+}
 
 .hover-underline-animation {
   display: inline-block;
@@ -156,23 +215,23 @@
   filter: blur(300px);
 }
 
-.pink__gradient {
-  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
-  filter: blur(900px);
-  opacity: 0.5;
-}
+
 .green__gradient {
   background: linear-gradient(90deg, #0ec226 0%, #035517 100%);
   filter: blur(400px);
   opacity: 0.5;
 }
 .blue__gradient {
-  background: linear-gradient(180deg, #408dcc 0%, #022e8d 100%);
-   opacity: 0.8;
-  filter: blur(500px);
+  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  filter: blur(123px);
+}
+
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
 }
 
 .white__gradient {
-  background: rgba(255, 255, 255, 0.144);
-  filter: blur(2000px);
+  background: rgba(255, 255, 255, 0.6);
+  filter: blur(750px);
 }
