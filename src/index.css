@@ -19,14 +19,15 @@
 }
 
 .box_shadow_t{
-  box-shadow: 0 -1px 7px rgba(189, 180, 180, 0.212);
+  border-top:solid 0.5px rgba(189, 180, 180, 0.15); 
+  
 }
 
 .box_shadow_b{
-  box-shadow: 0 1px 10px rgba(189, 180, 180, 0.212);
+  box-shadow: 0 -1px 4px rgba(255, 255, 255, 1);
 }
 
-.text-gradient {
+.text-gradient_blue {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
     #def9fa 0.89%,
@@ -36,10 +37,35 @@
     #5ce1e6 71.54%,
     #33bbcf 100%
   );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  
   text-fill-color: transparent;
+}
+
+.text-gradient_gold {
+
+   transform: translate(-50%,-50%);
+   top: 50%;
+   left: 50%;
+   font-family: 'Times New Roman',serif;
+   letter-spacing: 5px;
+   font-size: 150px;
+   font-weight: bold;
+   background-image: linear-gradient(
+	to right,
+	#ce8e2f 0,
+       	#cb9b51 22%, 
+	#f6e27a 45%,
+	#f6f2c0 50%,
+	#f6e27a 55%,
+	#cb9b51 78%,
+	#9e6714 100%
+	);
+   color:transparent;
+   -webkit-background-clip:text;
 }
 
 .bg-blue-gradient {
@@ -54,6 +80,18 @@
   );
 }
 
+.bg-gold-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #dbdaca -43.27%,
+    #d3cf9f -21.24%,
+    #beb96b 12.19%,
+    #c0b84e 29.82%,
+    #ccc12b 51.94%,
+    #b4a90c 90.29%
+  );
+}
+
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,
@@ -62,20 +100,21 @@
     #11101d 91.61%
   );
 }
-
-.bg-black-gradient-2 {
+.bg-white-gradient {
   background: linear-gradient(
-    -168.39deg,
+    144.39deg,
     #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #c5c3c3 -78.47%,
+    #888888 91.61%
   );
 }
+
+
 
 .bg-gray-gradient {
   background: linear-gradient(
     153.47deg,
-    rgba(255, 255, 255, 0) -341.94%,
+    rgb(109, 106, 106) -341.94%,
     #14101d 95.11%
   );
 }
@@ -235,3 +274,45 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+
+
+.box_shadow{
+  box-shadow: 0px 10px 30px rgba(203, 206, 205, 0.2);
+}
+
+.fixed_position{
+  position: fixed;
+  z-index: 9;
+  top: 0;
+}
+
+.career_data{
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  column-gap: 1.5rem;
+}
+
+.career_rounder{
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: #682fc4;
+  border-radius: 50%;
+ 
+  
+}
+
+.career_line{
+  display: block;
+  width: 1px;
+  height: 105.2%;
+  background-color: white;
+  transform: translate(6px,-7px);
+ 
+}
+
+.gray_text{
+  color: rgba(255, 255, 255, 0.55);
+}
+

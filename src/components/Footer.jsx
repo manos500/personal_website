@@ -3,7 +3,7 @@ import { socialMedia } from '../constants'
 
 const Footer = () => 
   (
-    <div className='w-full flex md:flex-row flex-col items-center justify-between pt-6  mb-[14px]'>
+    <div className='w-full flex md:flex-row flex-col items-center justify-between pt-6  mb-[14px]  box_shadow_t ' id="clients">
         <p className='font-poppins font-normal text-[16px] leading-[20px]  text-center text-white'>
         Copyright © 2022 Manos, All Rights Reserved.
       </p>

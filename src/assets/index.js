@@ -12,6 +12,9 @@ import discord from "./discord.svg";
 import close from "./close.svg";
 import navigator_white from "./navigator_white.svg"
 import navigator_black from "./navigator_black.svg"
+import graduation_cap from "./graduation_cap.svg"
+import briefcase from "./briefcase.svg"
+import calendar from "./calendar.svg"
 
 
 
@@ -30,5 +33,8 @@ export {
   close,
   navigator_white,
   navigator_black,
+  graduation_cap,
+  briefcase,
+  calendar,
   
 };
