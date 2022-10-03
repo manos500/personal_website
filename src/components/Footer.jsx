@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { socialMedia } from '../constants'
 
 const Footer = () => 

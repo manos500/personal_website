@@ -5,7 +5,7 @@ import { useState } from "react";
 const Hero = () => { 
   const[toggle2,setToggle2] = useState(true)
   return (
-    <section id="home" className={`flex md:flex-row flex-col sm:py-24 py-10 `}>
+    <section id="home" className={`flex md:flex-row flex-col sm:py-40 py-20 `}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins ss:text-[72px] text-[52px]  ss:leading-[100px] leading-[75px] sidebar text-gradient_blue">Hi, I'am Manos 
