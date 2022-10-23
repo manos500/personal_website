@@ -15,7 +15,7 @@ function App() {
         </div>
       </div>
 
-      <div className={`bg-primary ${styles.flexStart} mt-20 sm:mb-40 min-h-[600px]`}>
+      <div className={`bg-primary ${styles.flexStart} mt-20 sm:mb-40 min-h-[600px]`} id="home">
         <div className={`${styles.boxWidth} `}>
           <Hero />
         </div>
