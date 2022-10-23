@@ -1,4 +1,4 @@
-import { github, instagram, youtube, discord} from "../assets";
+import { github, instagram, youtube, discord, logo2} from "../assets";
 
 export const navLinks = [
   {
@@ -23,7 +23,7 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/manos_nik5/",
   },
   {
     id: "social-media-2",
@@ -41,3 +41,59 @@ export const socialMedia = [
     link: "https://www.linkedin.com/",
   },
 ];
+
+export const projectsData = [
+  {
+    id: 1,
+    title: "first project",
+    category: "web",
+    image: instagram,
+  },
+  {
+    id: 2,
+    title: "second project",
+    category: "app",
+    image: logo2,
+  },
+  {
+    id: 3,
+    title: "third project",
+    category: "app",
+    image: instagram,
+  },
+  {
+    id: 4,
+    title: "fdksfsa project",
+    category: "Game",
+    image: instagram,
+  },
+  {
+    id: 5,
+    title: "first project",
+    category: "Game",
+    image: instagram,
+  },
+  {
+    id: 6,
+    title: "first project",
+    category: "web",
+    image: instagram,
+  },
+ 
+]
+
+export const projectsNav = [
+  {
+    name: "all",
+  },
+  {
+    name: "web",
+  },
+  {
+    name: "app",
+  },
+  {
+    name: "Game",
+  },
+
+]

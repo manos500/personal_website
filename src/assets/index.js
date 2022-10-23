@@ -15,6 +15,7 @@ import navigator_black from "./navigator_black.svg"
 import graduation_cap from "./graduation_cap.svg"
 import briefcase from "./briefcase.svg"
 import calendar from "./calendar.svg"
+import right_arrow from "./right_arrow.png"
 
 
 
@@ -36,5 +37,6 @@ export {
   graduation_cap,
   briefcase,
   calendar,
+  right_arrow
   
 };
