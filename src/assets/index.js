@@ -16,6 +16,7 @@ import graduation_cap from "./graduation_cap.svg"
 import briefcase from "./briefcase.svg"
 import calendar from "./calendar.svg"
 import right_arrow from "./right_arrow.png"
+import twitter from "./twitter.png"
 
 
 
@@ -37,6 +38,7 @@ export {
   graduation_cap,
   briefcase,
   calendar,
-  right_arrow
+  right_arrow,
+  twitter,
   
 };

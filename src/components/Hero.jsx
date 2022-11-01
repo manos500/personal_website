@@ -6,7 +6,7 @@ import { useState,useEffect } from "react";
 
 const Hero = () => { 
 
-  const[toggle2,setToggle2] = useState(true)
+  const[toggle2,setToggle2] = useState(true);
   const toRotate = ["Hi, I'm Manos","Hi, I'm Manos"];
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -48,17 +48,23 @@ const Hero = () => {
     }
   }
 
-  
+
+
+
 
   return (
     <section className={`flex md:flex-row flex-col sm:py-40 py-20 `}>
+      
+      
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row justify-between items-center w-full">
+       
+                
+        
           
           <h1 className="flex-1 font-poppins ss:text-[72px] text-[52px]  ss:leading-[100px] leading-[75px] sidebar text-gradient_blue"><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span>
           </h1>
-        
-        
+      
         </div>
          <p className={`${styles.paragraph} max-w-[470px] mt-5 mb-5`}>
            I'm a 22 year old computer enthusiast.I'm currently studying Computer Science in Pireus, Greece,and running a Youtube channel called ???, where I show off my programming related content.
