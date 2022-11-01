@@ -34,10 +34,10 @@ function Contact() {
         <h1 className="flex-1 font-poppins ss:text-[32px] text-[22px]  ss:leading-[50px] leading-[35px] sidebar text-gradient_blue">
           How to contact me?
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-4 mb-5`}>You can contact me directly from here or via email!</p>
-        <div className='justify-center items-center m-auto '>
+        <p className={`${styles.paragraph} max-w-[470px] mt-4 mb-5 lg:text-[30px] lg:mt-10`}>You can contact me directly from here or via email!</p>
+        <div className='justify-center items-center m-auto lg:mt-20'>
          
-          <a href=""> <img src={email} alt="email" className='object-contain hover:opacity-80'/></a>
+          <a href=""> <img src={email} alt="email" className='object-contain hover:opacity-80 lg:h-[80px] lg:w-[80px]'/></a>
         </div>
         
       </div>
