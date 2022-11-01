@@ -1,6 +1,7 @@
 import styles from '../style';
 import Axios from "axios";
 import { useState } from 'react';
+import { email } from '../assets';
 
 function Contact() {
 
@@ -28,11 +29,17 @@ function Contact() {
 
   return (
     <section className={`flex md:flex-row flex-col sm:py-8 py-8 bg-discount-gradient rounded-3xl ${styles.flexStart} mt-20 mb-10`}>
+      
       <div className={`flex-1 ${styles.flexStart} flex-col sm:px-16 px-6`}>
         <h1 className="flex-1 font-poppins ss:text-[32px] text-[22px]  ss:leading-[50px] leading-[35px] sidebar text-gradient_blue">
-          Get in touch
+          How to contact me?
         </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-4 mb-5`}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, saepe placeat quia quo, enim delectus nostrum molestiae beatae porro consequatur quibusdam. Dignissimos laudantium quia, eveniet aliquam exercitationem itaque quam cumque!</p>
+        <p className={`${styles.paragraph} max-w-[470px] mt-4 mb-5`}>You can contact me directly from here or via email!</p>
+        <div className='justify-center items-center m-auto '>
+         
+          <a href=""> <img src={email} alt="email" className='object-contain hover:opacity-80'/></a>
+        </div>
+        
       </div>
       <div className="flex flex-col sm:px-16 px-6">
         <h1 className="flex-1 font-poppins ss:text-[32px] text-[22px]  ss:leading-[50px] leading-[35px] sidebar text-gradient_blue">

@@ -10,13 +10,14 @@ import github from "./github.svg";
 import youtube from "./youtube.svg";
 import discord from "./discord.svg";
 import close from "./close.svg";
-import navigator_white from "./navigator_white.svg"
-import navigator_black from "./navigator_black.svg"
-import graduation_cap from "./graduation_cap.svg"
-import briefcase from "./briefcase.svg"
-import calendar from "./calendar.svg"
-import right_arrow from "./right_arrow.png"
-import twitter from "./twitter.png"
+import navigator_white from "./navigator_white.svg";
+import navigator_black from "./navigator_black.svg";
+import graduation_cap from "./graduation_cap.svg";
+import briefcase from "./briefcase.svg";
+import calendar from "./calendar.svg";
+import right_arrow from "./right_arrow.png";
+import twitter from "./twitter.png";
+import email from "./email.png";
 
 
 
@@ -40,5 +41,6 @@ export {
   calendar,
   right_arrow,
   twitter,
+  email,
   
 };

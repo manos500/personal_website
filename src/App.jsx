@@ -29,7 +29,8 @@ function App() {
       </div>
      
 
-      <div className={`bg-primary ${styles.flexStart} mt-20 sm:mb-40 min-h-[600px]`} id="home">      
+      <div className={`bg-primary ${styles.flexStart} mt-20 sm:mb-40 min-h-[600px]`} id="home">   
+         
        <h1 className="clock_heading">{ctime}</h1>  
         <div className={`${styles.boxWidth} `}>          
           <Hero />
@@ -39,7 +40,9 @@ function App() {
       <div className={`${styles.paddingX} ${styles.flexCenter} mt-4 w-full  box_shadow rounded-lg h-[5px]`} />
 
       <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+         
         <div className={`${styles.boxWidth}`}>
+         
           <Career />
           <Projects />
           <Contact />

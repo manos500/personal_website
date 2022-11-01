@@ -5,7 +5,8 @@ import styles from "../style"
 const Career = () => {
 
   return (
-    <section className={`flex flex-col sm:py-15 py-5 mt-4 sm:mb-20 sm:pb-20`} id="career">
+    <section className={`flex flex-col sm:py-15 py-5 mt-4 sm:mb-20 sm:pb-20`} >
+       
        <div className='absolute z-[1] -left-1/2 top-0 w-[60%] h-[15%] rounded-full white__gradient'/>     
       <div className='absolute z-[0] -left-1/2 bottom-0 w-[60%] h-[15%] rounded-full pink__gradient'/>
       <div className={`${styles.flexCenter} m-auto`}>
@@ -57,11 +58,12 @@ const Career = () => {
                 </div>
 
                 <div>
-                  <span className="career_rounder ml-1 mt-5 z-[3]"></span>
+                  <span className="career_rounder ml-1 mt-5 z-[3]" id="projects"></span>
                   
                 </div>
               </div>
               </div>
+              
               </div>
     </section>
   )
