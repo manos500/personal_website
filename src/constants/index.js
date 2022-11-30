@@ -1,4 +1,4 @@
-import { github, instagram, youtube, discord, logo2, twitter} from "../assets";
+import { github, instagram, youtube, logo2, twitter, spaceThubnail} from "../assets";
 
 export const navLinks = [
   {
@@ -45,40 +45,25 @@ export const socialMedia = [
 export const projectsData = [
   {
     id: 1,
-    title: "first project",
-    category: "web",
-    image: instagram,
+    title: "SpaceShooter",
+    category: "game",
+    link: "https://github.com/manos500/WindowsFormGame",
+    image: spaceThubnail,
+    
   },
   {
     id: 2,
-    title: "second project",
+    title: "Null",
     category: "app",
-    image: logo2,
+    
   },
   {
     id: 3,
-    title: "third project",
-    category: "app",
-    image: instagram,
-  },
-  {
-    id: 4,
-    title: "fdksfsa project",
-    category: "Game",
-    image: instagram,
-  },
-  {
-    id: 5,
-    title: "first project",
-    category: "Game",
-    image: instagram,
-  },
-  {
-    id: 6,
-    title: "first project",
+    title: "Null",
     category: "web",
-    image: instagram,
+    
   },
+ 
  
 ]
 
@@ -90,10 +75,8 @@ export const projectsNav = [
     name: "web",
   },
   {
-    name: "app",
+    name: "game",
   },
-  {
-    name: "Game",
-  },
+ 
 
 ]

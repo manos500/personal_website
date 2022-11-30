@@ -5,6 +5,7 @@ import { email } from '../assets';
 
 function Contact() {
 
+
   const [FirstName,setFirstName] = useState("")
   const [LastName,setLastName] = useState("")
   const [Country,setCountry] = useState("")
@@ -23,7 +24,21 @@ function Contact() {
       }).then(() => {
         console.log("success!");
       });
+
+      document.getElementById("firstname").value = ""
+      document.getElementById("lastname").value = ""
+      document.getElementById("region").value = ""
+      document.getElementById("email").value = ""
+      document.getElementById("comment").value = ""
+      location.reload()
+    
   };
+
+   const delete_input = () => {
+   
+      
+    
+    }
 
 
 
@@ -54,6 +69,7 @@ function Contact() {
         </div>
         <textarea name="comment" id="comment" placeholder="Comments" className="contact_textArea text-[12px] sm:text-[16px]" rows="7" onChange={(event) => {setComments(event.target.value)}}/>
         <button className="submit_contact_btn" onClick={submit_contacts}>Submit</button>
+      
       </div>
     </section>
   );

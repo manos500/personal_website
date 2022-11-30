@@ -18,6 +18,8 @@ import calendar from "./calendar.svg";
 import right_arrow from "./right_arrow.png";
 import twitter from "./twitter.png";
 import email from "./email.png";
+import spaceThubnail from "./spacethubnail.png";
+
 
 
 
@@ -42,5 +44,7 @@ export {
   right_arrow,
   twitter,
   email,
+  spaceThubnail,
+
   
 };
